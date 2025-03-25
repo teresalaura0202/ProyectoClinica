@@ -274,7 +274,7 @@ if ($result) {
             <i class="fas fa-user-nurse"></i>
             <span>Medico</span>
         </a>
-        <a href="./recepcionista.php">
+        <a href="./dasboard.php">
             <i class="fas fa-user-nurse"></i>
             <span>Recepcionista</span>
         </a>

@@ -7,7 +7,6 @@ if (!isset($_SESSION['rol'])) {
     exit;
 }
 
-/
 $sqlCitas = "SELECT COUNT(*) as total FROM citas WHERE estado = 'programada'";
 $resultadoCitas = mysqli_query($conexion, $sqlCitas);
 $citasProgramadas = mysqli_fetch_assoc($resultadoCitas)['total'];

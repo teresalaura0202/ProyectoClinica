@@ -290,6 +290,7 @@ if ($result) {
         </nav>
 </aside>
 
+
 <main>
     <section id="inicio">
         
